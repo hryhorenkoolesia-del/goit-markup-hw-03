@@ -1,4 +1,5 @@
 .portfolio {
+  padding: 120px 0;
 }
 .portfolio-titel {
   font-weight: 700;
@@ -7,14 +8,22 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 48px) / 3);
+  min-width: 0;
 }
 .portfolio-image {
   display: block;
+  width: 100%;
 }
 .portfolio-subtitel {
   font-weight: 500;
@@ -22,10 +31,16 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }

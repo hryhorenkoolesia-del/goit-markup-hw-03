@@ -1,4 +1,11 @@
 .header {
+  border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+}
+.header-container {
+  display: flex;
+  aline-items: center;
+  justify-content: space-between;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -13,8 +20,13 @@
   color: #2e2f42;
 }
 .header-nav {
+  display: flex;
+  aline-items: center;
 }
 .header-nav-list {
+  display: flex;
+  aline-items: center;
+  gap: 40px;
 }
 .header-nav-link {
   font-size: 16px;
@@ -32,6 +44,9 @@
   font-style: normal;
 }
 .header-addres-list {
+  display: flex;
+  aline-items: center;
+  gap: 40px;
 }
 .header-addres-link {
   font-family: "Roboto", sans-serif;
