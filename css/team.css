@@ -18,7 +18,7 @@
 }
 .team-list-item {
   background-color: #ffffff;
-  width: calc((100%-24px * 3) / 4);
+  width: calc((100% - 24px * 3) / 4);
   border-radius: 0 0 4px 4px;
 }
 .team-subtitle {
@@ -39,5 +39,5 @@
   margin-bottom: 8px;
 }
 .team-card-content {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
